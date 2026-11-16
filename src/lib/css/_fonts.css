@@ -1,0 +1,32 @@
+/* Sans Serif */
+@font-face {
+    font-family: "Shippori Antique B1";
+    src: url('./fonts/ShipporiAntiqueB1-Regular.ttf') format('truetype');
+}
+/* Serif */
+@font-face {
+    font-family: "Shippori Mincho";
+    font-weight: 400;
+    src: url('./fonts/ShipporiMincho-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Shippori Mincho";
+    font-weight: 500;
+    src: url('./fonts/ShipporiMincho-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Shippori Mincho";
+    font-weight: 600;
+    src: url('./fonts/ShipporiMincho-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Shippori Mincho";
+    font-weight: 700;
+    src: url('./fonts/ShipporiMincho-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Shippori Mincho";
+    font-weight: 800;
+    src: url('./fonts/ShipporiMincho-ExtraBold.ttf') format('truetype');
+}
+

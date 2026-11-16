@@ -1,0 +1,62 @@
+:root {
+    /* PRIMITIVES */
+    --font-family-sans: 'Shippori Antique B1', sans-serif;
+    --font-family-serif: 'Shippori Mincho', serif;
+
+    --font-size-base: 16px;
+    --font-size-0: 0.75rem;
+    --font-size-1: 0.875rem;
+    --font-size-2: 1rem;
+    --font-size-3: 1.125rem;
+    --font-size-4: 1.25rem;
+    --font-size-5: 1.5rem;
+    --font-size-6: 1.67rem;
+    --font-size-7: 1.75rem;
+    --font-size-8: 2rem;
+
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+
+    --line-height-base: 1.6;
+
+    --text-transform-heading: uppercase;
+
+    --text-decoration-underline: underline;
+    --text-decoration-none: none;
+
+    --color-antique: #fff8f0;
+    --color-charcoal: #272727;
+
+    --spacing-0: 0.25rem;
+    --spacing-1: 0.5rem;
+    --spacing-2: 1rem;
+    --spacing-3: 1.5rem;
+    --spacing-4: 2rem;
+    --spacing-5: 2.5rem;
+    --spacing-6: 5rem;
+    --spacing-7: 10rem;
+
+    /* SEMANTIC */
+    --font-family-heading: var(--font-family-sans);
+    --font-family-body: var(--font-family-serif);
+    --font-family-action: var(--font-family-sans);
+
+    --font-size-heading-1: var(--font-size-8);
+    --font-size-heading-2: var(--font-size-6);
+    --font-size-heading-3: var(--font-size-4);
+    --font-size-heading-4: var(--font-size-3);
+    --font-size-heading-5: var(--font-size-2);
+    --font-size-heading-small: var(--font-size-1);
+    --font-size-body: var(--font-size-2);
+
+    --site-foreground-light: var(--color-charcoal);
+    --site-background-light: var(--color-antique);
+    --site-foreground-dark: var(--color-antique);
+    --site-background-dark: var(--color-charcoal);
+
+    /* ELEMENT */
+    --link-underline-default: var(--text-decoration-none);
+    --link-underline-interacted: var(--text-decoration-underline);
+    --link-color: var(--site-foreground-default);
+    --link-color-interacted: var(--site-foreground-default);
+}

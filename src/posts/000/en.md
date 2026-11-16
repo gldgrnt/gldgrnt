@@ -1,3 +1,9 @@
-## Hello world
+# 000・In Motion
 
-This is a test post
+"Our bodies were meant to move", I remind myself. It's amazing how quickly it's forgotten under stress. The body never does forget of course - it knows what it needs. "Your best posture is your next posture". That was the justification for my standing desk. I don't know what ratio our ancestors were working towards, so I try and stretch after long stints of either sitting or standing. And I have an app for the stretching too, with routines and tests, numbers and graphs. "You're 6% more flexible than last month", it tells me.
+
+I've all but forgotten the teachings from James Clear's *Atomic Habits*. It was the first entry in my Notion reading log and my formal introduction to the world of productivity. To this day, my body jolts when I see its gold lettering. Ironically, forgetting was the point. Forget the goal, focus on the system. Good systems, good habits, good outcomes.
+
+I got caught up with Productivity (with a capital P) during the pandemic - it felt like everyone from my corner of the internet did. We had to be moving in some way. Then I was rebranded overnight; I went from Web Developer to Software Engineer and to make matters worse, I had to start acting like it. Apps, algorithms and Agile. Anxiety from the gap between expectations and reality. I carried that anxiety home from work - across the living room, and called it "Productivity."
+
+As far as this site goes, I've been in constant motion. That's how Clear would describe it anyway: "Motion makes you feel like you’re getting things done".  For 7 years, I've been designing and redesigning, building and rebuilding. I've moved so much, created so much turbulence, kicked up so much dust I can barely see the target any more. I’m starting to forget what it looks like.

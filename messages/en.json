@@ -1,3 +1,32 @@
 {
-    "$schema": "https://inlang.com/schema/inlang-message-format"
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"localeSwitcher": {
+		"languages": "Languages",
+		"en": {
+			"short": "EN",
+			"long": "English"
+		},
+		"fr": {
+			"short": "FR",
+			"long": "French"
+		},
+		"jp": {
+			"short": "JP",
+			"long": "English"
+		}
+	},
+	"modeSwitcher": {
+		"light": {
+			"short": "Light",
+			"long": "Light mode"
+		},
+		"dark": {
+			"short": "Dark",
+			"long": "Dark mode"
+		}
+	},
+	"footer": {
+		"info": "Info",
+		"github": "GitHub"
+	}
 }

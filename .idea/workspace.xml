@@ -4,57 +4,108 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f87b1892-24ac-461c-b9bd-1852a9dd1fd5" name="Changes" comment="wip: prototype for statically generated site">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messages/jp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.inlang/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.inlang/project_id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.inlang/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/i18n.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/000/en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/000/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/001/en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/posts/001/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/gldgrnt-site/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/[slug]/+layout.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/api/posts/+server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/api/projects/+server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/api/projects/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vitest-setup-client.ts" afterDir="false" />
+    <list default="true" id="f87b1892-24ac-461c-b9bd-1852a9dd1fd5" name="Changes" comment="feature: initial website publish">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prettier.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/assets/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/assets/gldgrnt-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/ActionGroup/ActionGroup.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/ActionGroup/ActionGroupItem.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/ActionGroup/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/LocaleSwitcher/LocalSwitcher.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/Logo/Logo.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/ModeSwitcher/ModeSwitcher.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/PostPreview/PostPreview.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/components/PostPreview/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/_fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/_reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/_theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/_tokens.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/fonts/ShipporiAntiqueB1-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/fonts/ShipporiMincho-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/fonts/ShipporiMincho-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/fonts/ShipporiMincho-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/fonts/ShipporiMincho-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/fonts/ShipporiMincho-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils/import.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils/localisation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/000/_meta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/000/assets/in-motion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/000/fr.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/000/jp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/001/_meta.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/001/assets/storyworthy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/posts/001/jp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/+layout.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/info/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/info/info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.inlang/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.inlang/project_id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.inlang/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/i18n.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/000/en.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/000/en.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/000/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/001/en.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts/001/en.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/posts/001/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/gldgrnt-site/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+layout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/[slug]/+page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/[slug]/+page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/posts/+server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/projects/+server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/projects/config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitest-setup-client.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ActionGroupItem" />
+        <option value="ThemeSwithcer" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,8 +123,8 @@
     &quot;accountId&quot;: &quot;759f7575-835b-4543-beff-c40d7fc4b326&quot;
   }
 }</component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -92,31 +143,64 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Shell Script.Dev.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/giladgrant/Documents/Code/GitHub/gldgrnt",
+    "javascript.preferred.runtime.type.id": "bun",
+    "last_opened_file_path": "/Users/giladgrant/Documents/Code/GitHub/gldgrnt/src/posts/000/assets",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/giladgrant/Documents/Code/GitHub/gldgrnt/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Markdown",
     "ts.external.directory.path": "/Users/giladgrant/Documents/Code/GitHub/gldgrnt/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/routes" />
-      <recent name="$PROJECT_DIR$/src/routes/[uid]" />
-      <recent name="$PROJECT_DIR$/src/routes/[slug]" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/posts/000/assets" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src/posts/000" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/posts/000" />
+      <recent name="$PROJECT_DIR$/src/lib/utils" />
+      <recent name="$PROJECT_DIR$/src/lib/css" />
+      <recent name="$PROJECT_DIR$/src/posts/001/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dev" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="bun run dev" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="false" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
       </set>
     </attachedChunks>
   </component>
@@ -129,14 +213,54 @@
       <updated>1748787450457</updated>
       <workItem from="1748787451510" duration="775000" />
       <workItem from="1748788237514" duration="11292000" />
-      <workItem from="1748806399660" duration="1503000" />
+      <workItem from="1748806399660" duration="15182000" />
+      <workItem from="1750775956155" duration="11860000" />
+      <workItem from="1755331036655" duration="359000" />
+      <workItem from="1791923562756" duration="2966000" />
+      <workItem from="1792318892534" duration="49000" />
+      <workItem from="1792318997220" duration="354000" />
+      <workItem from="1792319413266" duration="28914000" />
+      <workItem from="1792619533976" duration="10195000" />
+      <workItem from="1792849118811" duration="46000" />
+      <workItem from="1792849171130" duration="63000" />
+      <workItem from="1792849241391" duration="42095000" />
+      <workItem from="1794338927757" duration="28103000" />
     </task>
+    <task id="LOCAL-00001" summary="wip: prototype for statically generated site">
+      <option name="closed" value="true" />
+      <created>1748814236574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748814236574</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -144,7 +268,18 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -155,6 +290,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wip: prototype for statically generated site" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip: prototype for statically generated site" />
+    <MESSAGE value="feature: initial website publish" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: initial website publish" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/.svelte-kit/output/server/entries/pages/_page.svelte.js</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/.old/src/routes/[slug]/+page.ts</url>
+          <line>29</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
