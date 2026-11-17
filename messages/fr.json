@@ -23,6 +23,10 @@
 		"dark": {
 			"short": "Sombre",
 			"long": "Mode clair"
+		},
+		"system": {
+			"short": "Système",
+			"long": "Système"
 		}
 	},
 	"footer": {

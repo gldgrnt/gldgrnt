@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f87b1892-24ac-461c-b9bd-1852a9dd1fd5" name="Changes" comment="chore: commit inlang settings files" />
+    <list default="true" id="f87b1892-24ac-461c-b9bd-1852a9dd1fd5" name="Changes" comment="chore: commit missing files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/jp.json" beforeDir="false" afterPath="$PROJECT_DIR$/messages/jp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/components/ModeSwitcher/ModeSwitcher.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ModeSwitcher/ModeSwitcher.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +142,7 @@
       <workItem from="1792849118811" duration="46000" />
       <workItem from="1792849171130" duration="63000" />
       <workItem from="1792849241391" duration="42095000" />
-      <workItem from="1794338927757" duration="28437000" />
+      <workItem from="1794338927757" duration="32061000" />
     </task>
     <task id="LOCAL-00001" summary="wip: prototype for statically generated site">
       <option name="closed" value="true" />
@@ -169,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794852266189</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore: commit missing files">
+      <option name="closed" value="true" />
+      <created>1794852448886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1794852448886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +243,8 @@
     <MESSAGE value="feature: initial website publish" />
     <MESSAGE value="chore: update files" />
     <MESSAGE value="chore: commit inlang settings files" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: commit inlang settings files" />
+    <MESSAGE value="chore: commit missing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: commit missing files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

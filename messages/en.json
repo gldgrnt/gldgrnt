@@ -23,6 +23,10 @@
 		"dark": {
 			"short": "Dark",
 			"long": "Dark mode"
+		},
+		"system": {
+			"short": "System",
+			"long": "System"
 		}
 	},
 	"footer": {

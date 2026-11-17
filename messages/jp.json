@@ -23,6 +23,10 @@
 		"dark": {
 			"short": "ダーク",
 			"long": "ダークモード"
+		},
+		"system": {
+			"short": "システム",
+			"long": "システム設定"
 		}
 	},
 	"footer": {

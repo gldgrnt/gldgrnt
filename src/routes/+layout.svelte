@@ -20,7 +20,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<ModeWatcher />
+<ModeWatcher defaultMode="system" />
 
 <div class="content-wrapper" data-theme={mode.current}>
 	<header>
@@ -71,5 +71,11 @@
 		align-items: center;
 		justify-content: space-between;
 		padding-block: var(--spacing-2);
+
+		@media screen and (max-width: 756px) {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: var(--spacing-2);
+		}
 	}
 </style>
