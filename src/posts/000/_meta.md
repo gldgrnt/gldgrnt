@@ -7,5 +7,5 @@ title:
 assets:
   - filename: in-motion
     isCoverPhoto: true
-    alt: 'In motion cover photo'
+    alt: 'Cyclist in blurred motion along a rural road'
 ---
