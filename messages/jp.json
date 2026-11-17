@@ -30,6 +30,7 @@
 		}
 	},
 	"footer": {
+		"home": "ホーム",
 		"info": "サイトについて",
 		"github": "GitHub"
 	}

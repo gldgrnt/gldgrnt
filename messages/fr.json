@@ -30,6 +30,7 @@
 		}
 	},
 	"footer": {
+		"home": "Accueil",
 		"info": "Info",
 		"github": "GitHub"
 	}

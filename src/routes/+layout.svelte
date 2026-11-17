@@ -14,6 +14,7 @@
 	import ActionGroup from '#lib/components/ActionGroup/ActionGroup.svelte';
 
 	let { children }: LayoutProps = $props();
+	import { page } from '$app/state';
 </script>
 
 <svelte:head>
@@ -32,7 +33,16 @@
 
 	<footer>
 		<ActionGroup>
-			<ActionGroupItem label={m['footer.info']()} href={getLocalisedHref('/info')} />
+			<ActionGroupItem
+				label={m['footer.home']()}
+				href={getLocalisedHref('/')}
+				isCurrent={page.route.id === '/'}
+			/>
+			<ActionGroupItem
+				label={m['footer.info']()}
+				href={getLocalisedHref('/info')}
+				isCurrent={page.route.id === '/info'}
+			/>
 			<ActionGroupItem
 				label={m['footer.github']()}
 				href="https://github.com/gldgrnt"
