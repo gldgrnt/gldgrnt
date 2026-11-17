@@ -18,6 +18,12 @@
 </svelte:head>
 
 <article data-post>
+	<section class="content-wrapper">
+		{#if !data.isLocalisedPostAvailable && locale !== 'en'}
+			<aside>{localMap[locale]} translation coming soon</aside>
+		{/if}
+		<post.content />
+	</section>
 	<section class="image-wrapper">
 		<figure>
 			{#each post.assets as asset (asset.filename)}
@@ -27,12 +33,6 @@
 				{/if}
 			{/each}
 		</figure>
-	</section>
-	<section class="content-wrapper">
-		{#if !data.isLocalisedPostAvailable && locale !== 'en'}
-			<aside>{localMap[locale]} translation coming soon</aside>
-		{/if}
-		<post.content />
 	</section>
 </article>
 
@@ -65,6 +65,7 @@
 	}
 
 	.image-wrapper {
+		order: 1;
 		width: 100%;
 		min-width: 400px;
 		max-width: 50vw;
@@ -77,6 +78,7 @@
 	}
 
 	.content-wrapper {
+		order: 2;
 		box-sizing: border-box;
 		width: 100%;
 		min-width: calc(500px - (2 * var(--spacing-5)));
@@ -84,6 +86,7 @@
 		padding-inline: var(--spacing-5);
 
 		@media screen and (max-width: 900px) {
+			order: 1;
 			min-width: 0;
 			padding-inline: 0;
 		}
